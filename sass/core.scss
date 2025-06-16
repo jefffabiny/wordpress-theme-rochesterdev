@@ -33,7 +33,11 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: variables.$primary-background;
-  border:10px solid red
+}
+
+/* Adjust min-height when admin bar is present */
+body.admin-bar {
+  min-height: calc(100vh - 32px);
 }
 
 /* Main content wrapper */
