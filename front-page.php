@@ -1,7 +1,7 @@
 <?php
 get_header(); // Include header.php
 ?>
-
+front page
 <main>
     <?php if (have_posts()) : ?>
         <?php while (have_posts()) : the_post(); ?>

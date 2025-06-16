@@ -10,15 +10,4 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <header class="site-header">
-        <nav id="site-navigation" class="site-navigation">
-            <?php
-            wp_nav_menu(array(
-                'theme_location' => 'primary',
-                'menu_class' => 'primary-menu row',
-            ));
-
-            ?>
-        </nav>
-    </header>
     <div class="content">
